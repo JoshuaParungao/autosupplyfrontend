@@ -43,17 +43,17 @@ function BranchChooserPage({ onSelectBranch, onLogout, user }) {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div className="flex items-center gap-4">
             <img
-              alt="Auto Supply Logo"
+              alt="Pointify Logo"
               className="size-14 rounded-2xl object-contain shadow-card bg-white p-1"
-              src="/arunafeltzlogo.png"
+              src="/pointify.png"
             />
             <div className="min-w-0">
               <Badge tone="maroon">Branch Selection</Badge>
               <h1 className="brand-text mt-1 text-2xl sm:text-3xl font-bold tracking-tight text-[var(--color-text-strong)]">
-                Auto Supply
+                Pointify
               </h1>
               <p className="mt-1 text-sm leading-6 text-[var(--color-muted)]">
-                Welcome, {user?.fullName || user?.username || "Super Owner"}. Select a branch to monitor.
+                Welcome, {user?.fullName || user?.username || "Super Owner"}. Select a branch workspace to access.
               </p>
             </div>
           </div>

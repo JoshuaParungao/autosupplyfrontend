@@ -303,7 +303,7 @@ function Topbar({
               {activeLabel}
             </p>
             <p className="hidden text-xs text-[var(--color-muted)] sm:block">
-              Auto Supply Cloud POS and Business Monitoring
+              Pointify Cloud POS and Business Management
             </p>
           </div>
 

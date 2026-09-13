@@ -76,15 +76,15 @@ function Sidebar({
     >
       <div className="flex items-center gap-3 px-1">
         <img
-          alt="Auto Supply Logo"
-          className="size-11 shrink-0 rounded-2xl bg-white/10 p-1 object-contain shadow-soft"
-          src="/arunafeltzlogo.png"
+          alt="Pointify Logo"
+          className="size-11 shrink-0 rounded-2xl bg-white p-1 object-contain shadow-soft"
+          src="/pointify.png"
         />
 
         {!isCollapsed ? (
           <div className="min-w-0">
-            <p className="brand-text text-base font-bold tracking-tight">Auto Supply</p>
-            <p className="truncate text-xs text-white/60">Parts & Services POS</p>
+            <p className="brand-text text-base font-bold tracking-tight">Pointify</p>
+            <p className="truncate text-xs text-white/60">Cloud POS System</p>
           </div>
         ) : null}
 

@@ -58,16 +58,16 @@ function LoginPage({ onLogin }) {
       <section className="w-full max-w-md rounded-3xl border border-[var(--color-border)] bg-white p-6 shadow-card">
         <div className="flex items-center gap-3">
           <img
-            alt="Auto Supply Logo"
+            alt="Pointify Logo"
             className="size-12 rounded-2xl object-contain shadow-sm"
-            src="/arunafeltzlogo.png"
+            src="/pointify.png"
           />
           <div>
             <h1 className="text-xl font-black text-[var(--color-text-strong)]">
-              Auto Supply
+              Pointify
             </h1>
             <p className="text-xs text-[var(--color-muted)]">
-              Parts & Services Management POS
+              Cloud POS & Business Management
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ function LoginPage({ onLogin }) {
         </form>
 
         <p className="mt-6 text-xs text-[var(--color-muted)]">
-          Use an active Auto Supply account. Your role and branch determine the
+          Use an active Pointify account. Your role and branch determine the
           workspace you can access.
         </p>
       </section>
