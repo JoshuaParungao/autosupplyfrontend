@@ -104,8 +104,9 @@ const SALE_CANCELLER_ROLES = new Set([
 const IMMEDIATE_PAYMENT_METHODS = [
   ["CASH", "Cash (Physical)"],
   ["GCASH", "GCash (Online)"],
-  ["BANK_TRANSFER", "Bank Transfer (Any Bank)"],
-  ["OTHER", "Maya / PayMaya / Other Online"],
+  ["CARD", "Card / Maya Terminal (Debit / Credit)"],
+  ["OTHER", "QR Ph / PayMongo / Maya Online"],
+  ["BANK_TRANSFER", "Bank Transfer (BDO, BPI, UB, etc.)"],
 ]
 
 const RECEIVABLE_PROVIDERS = [
