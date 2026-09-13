@@ -298,7 +298,7 @@ export default function AccountsPayableModal({
     }
   }
 
-  const shopName = "ARUNAFELTZ COMPUTER PARTS AND ACCESSORIES SHOP"
+  const shopName = "AUTO SUPPLY PARTS AND ACCESSORIES SHOP"
   const shopAddress =
     selectedBranch?.address ||
     "KINGSPIRE BUSINESS CENTRE, MAC ARTHUR HIGHWAY, SAN ISIDRO, CITY OF SAN FERNANDO, PAMPANGA / 0961-873-5798"

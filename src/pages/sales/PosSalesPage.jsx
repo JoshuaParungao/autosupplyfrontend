@@ -979,7 +979,7 @@ function SaleDetailDialog({
                   {/* Left Store Info */}
                   <div className="md:col-span-6 space-y-1">
                     <h1 className="text-sm font-black tracking-tight text-slate-950 uppercase leading-snug">
-                      ARUNAFELTZ COMPUTER PARTS AND ACCESSORIES SHOP
+                      AUTO SUPPLY PARTS AND ACCESSORIES SHOP
                     </h1>
                     <p className="text-[11px] text-slate-700 leading-normal">
                       {branchAddress}

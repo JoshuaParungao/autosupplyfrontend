@@ -274,7 +274,7 @@ export default function JobOrderReceiptPrint({ isBlank = false, job = {} }) {
         </div>
 
         <div className="jo-official-term-item">
-          <strong>Claiming, Storage &amp; Abandoned Units:</strong> Completed or unserviceable units must be claimed within <strong>7 calendar days</strong> after notification. Units left beyond 15 days will incur a <strong>₱50.00 storage fee per day</strong> until claimed. Units unclaimed after <strong>30 days</strong> may be considered abandoned and may be disposed by Arunafeltz Computer.
+          <strong>Claiming, Storage &amp; Abandoned Units:</strong> Completed or unserviceable units must be claimed within <strong>7 calendar days</strong> after notification. Units left beyond 15 days will incur a <strong>₱50.00 storage fee per day</strong> until claimed. Units unclaimed after <strong>30 days</strong> may be considered abandoned and may be disposed by Auto Supply.
         </div>
 
         <div className="jo-official-term-item">
@@ -287,7 +287,7 @@ export default function JobOrderReceiptPrint({ isBlank = false, job = {} }) {
       <section className="jo-official-declaration-section">
         <h2 className="jo-official-declaration-title">CUSTOMER DECLARATION</h2>
         <p className="jo-official-declaration-text">
-          I have read, understood, and agree to the Terms &amp; Conditions stated above. I authorize Arunafeltz Computer Parts and Accessories Shop to perform the requested diagnostic, repair, maintenance, upgrade, software installation, or other related services on my unit.
+          I have read, understood, and agree to the Terms &amp; Conditions stated above. I authorize Auto Supply to perform the requested diagnostic, repair, PMS, parts installation, or other automotive services on my vehicle/unit.
         </p>
       </section>
 
