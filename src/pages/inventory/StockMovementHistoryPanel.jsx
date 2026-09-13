@@ -1,4 +1,4 @@
-﻿import { createElement as h } from "react"
+import { createElement as h } from "react"
 
 function formatNumber(value) {
   const number = Number(value || 0)
@@ -46,7 +46,7 @@ export default function StockMovementHistoryPanel({ movements = [], isLoading = 
           "p",
           {
             className:
-              "text-xs font-black uppercase tracking-[0.2em] text-[#7A1F2B]",
+              "text-xs font-black uppercase tracking-[0.2em] text-[var(--color-maroon)]",
           },
           "Stock movement history"
         ),

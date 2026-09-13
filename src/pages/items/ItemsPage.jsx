@@ -1171,7 +1171,7 @@ function ItemMobileCard({ canManagePrices, canViewCost, item, onEditPrices }) {
             ) : null}
             <span>{item.category?.name || "—"}</span>
             {item.attributes && Object.keys(item.attributes).length > 0 ? (
-              <span className="ml-auto inline-flex items-center gap-1 rounded-md bg-[#7A1F2B]/10 px-2 py-0.5 text-[11px] font-semibold text-[#7A1F2B]">
+              <span className="ml-auto inline-flex items-center gap-1 rounded-md bg-[var(--color-maroon-soft)] px-2 py-0.5 text-[11px] font-semibold text-[var(--color-maroon)]">
                 <Tag size={11} /> {Object.keys(item.attributes).length} specs
               </span>
             ) : (!item.category?.parentId ? (
@@ -1214,7 +1214,7 @@ function ItemMobileCard({ canManagePrices, canViewCost, item, onEditPrices }) {
 
       {canManagePrices ? (
         <button
-          className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-[#7A1F2B] bg-white px-4 py-3 text-sm font-bold text-[#7A1F2B] transition hover:bg-[#F4F1EC]"
+          className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-[var(--color-maroon)] bg-white px-4 py-3 text-sm font-bold text-[var(--color-maroon)] transition hover:bg-[var(--color-maroon-soft)]"
           onClick={() => onEditPrices(item)}
           type="button"
         >
@@ -2271,7 +2271,7 @@ function ItemsPage({ onNavigate, selectedBranch, user }) {
                             </span>
                             {item.attributes && Object.keys(item.attributes).length > 0 ? (
                               <div className="mt-1 flex items-center">
-                                <span className="inline-flex items-center gap-1 rounded-full bg-[#7A1F2B]/10 px-2 py-0.5 text-[10px] font-bold text-[#7A1F2B]">
+                                <span className="inline-flex items-center gap-1 rounded-full bg-[var(--color-maroon-soft)] px-2 py-0.5 text-[10px] font-bold text-[var(--color-maroon)]">
                                   <Tag size={10} />
                                   {Object.keys(item.attributes).length} specs
                                 </span>
@@ -2348,7 +2348,7 @@ function ItemsPage({ onNavigate, selectedBranch, user }) {
 
                             {canManagePrices ? (
                               <button
-                                className="inline-flex items-center justify-center gap-1 rounded-xl border border-[#7A1F2B] bg-white px-3 py-2 text-xs font-bold text-[#7A1F2B] transition hover:bg-[#F4F1EC]"
+                                className="inline-flex items-center justify-center gap-1 rounded-xl border border-[var(--color-maroon)] bg-white px-3 py-2 text-xs font-bold text-[var(--color-maroon)] transition hover:bg-[var(--color-maroon-soft)]"
                                 onClick={() => openPriceEditor(item)}
                                 type="button"
                               >
@@ -2397,7 +2397,7 @@ function ItemsPage({ onNavigate, selectedBranch, user }) {
             </button>
 
             <button
-              className="rounded-2xl border border-[#7A1F2B] bg-white px-4 py-3 text-sm font-bold text-[#7A1F2B] transition hover:bg-[#F4F1EC] disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-2xl border border-[var(--color-border)] bg-white px-4 py-3 text-sm font-bold text-[var(--color-text-strong)] transition hover:bg-[var(--color-soft)] disabled:cursor-not-allowed disabled:opacity-50"
               disabled={!pagination.hasNextPage || isLoading}
               onClick={() => setPage((currentPage) => currentPage + 1)}
               type="button"

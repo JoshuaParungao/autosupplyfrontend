@@ -40,19 +40,19 @@ export const APP_MODULES = [
   },
   {
     key: "pc-builds",
-    label: "PC Builds (Sold Systems)",
+    label: "Bundles & Package Deals",
     group: "Operations",
     roles: BRANCH_OPERATION_ROLES,
   },
   {
     key: "services",
-    label: "Services / Job Orders",
+    label: "Work Orders & Services",
     group: "Operations",
     roles: BRANCH_OPERATION_ROLES,
   },
   {
     key: "warranty",
-    label: "Warranty Claims",
+    label: "Warranty & Returns",
     group: "Operations",
     roles: BRANCH_OPERATION_ROLES,
   },
@@ -66,7 +66,7 @@ export const APP_MODULES = [
   },
   {
     key: "serials",
-    label: "Serial Monitoring",
+    label: "Serial & Asset Tracking",
     group: "Inventory & Purchasing",
     roles: BRANCH_OPERATION_ROLES,
   },
@@ -92,13 +92,13 @@ export const APP_MODULES = [
   // --- FINANCE & CREDITS ---
   {
     key: "cash-box",
-    label: "Cash Register & Vault",
+    label: "Cash Registers & Drawers",
     group: "Finance & Credits",
     roles: [USER_ROLES.SUPER_OWNER, USER_ROLES.ADMIN],
   },
   {
     key: "credits",
-    label: "Credits & Installments",
+    label: "Customer Receivables (Credits)",
     group: "Finance & Credits",
     roles: BRANCH_OPERATION_ROLES,
   },
@@ -106,7 +106,7 @@ export const APP_MODULES = [
   // --- FILE MAINTENANCE (MASTER DATA) ---
   {
     key: "items",
-    label: "Products & Pricing (Items)",
+    label: "Product Catalog",
     group: "File Maintenance",
     roles: BRANCH_OPERATION_ROLES,
   },
@@ -118,7 +118,7 @@ export const APP_MODULES = [
   },
   {
     key: "services-maintenance",
-    label: "Services & Repair Rates",
+    label: "Service Catalog & Rates",
     group: "File Maintenance",
     roles: BRANCH_OPERATION_ROLES,
   },

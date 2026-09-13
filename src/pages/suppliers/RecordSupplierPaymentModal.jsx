@@ -160,7 +160,7 @@ export default function RecordSupplierPaymentModal({
         {/* Header */}
         <div className="flex items-center justify-between border-b border-slate-200 bg-slate-50/90 px-5 py-3.5">
           <div className="flex items-center gap-2.5 min-w-0">
-            <span className="grid size-8 shrink-0 place-items-center rounded-xl bg-maroon-50 text-[var(--color-maroon)] border border-maroon-100">
+            <span className="grid size-8 shrink-0 place-items-center rounded-xl bg-[var(--color-maroon-soft)] text-[var(--color-maroon)] border border-[var(--color-border)]">
               <Building2 size={18} />
             </span>
             <div className="min-w-0">
@@ -249,7 +249,7 @@ export default function RecordSupplierPaymentModal({
                     onClick={() => setPaymentMethod(m.id)}
                     className={`flex items-center gap-2 rounded-xl border p-2.5 text-left transition cursor-pointer ${
                       isSelected
-                        ? "border-[var(--color-maroon)] bg-maroon-50/40 font-black text-slate-900 ring-1 ring-[var(--color-maroon)]"
+                        ? "border-[var(--color-maroon)] bg-[var(--color-maroon-soft)] font-black text-slate-900 ring-1 ring-[var(--color-maroon)]"
                         : "border-slate-200 bg-white hover:border-slate-300 text-slate-700"
                     }`}
                   >
